@@ -1,0 +1,24 @@
+<app-logo></app-logo>
+<app-menu></app-menu>
+<div id="divdetail">
+  <!-- <ul>
+    <li *ngFor="let hero of heroes" style="width:10px">
+      <h3>{{ hero.id }}</h3>
+      {{ hero.title }}
+    </li>
+    <li *ngFor="let hero of heroes"></li>
+  </ul> -->
+
+ <!-- <table style="width:100%">
+      <tr>
+      <th ng-repeat="item in heroes">{{ item.id }}</th>
+    </tr> 
+    <tr ng-repeat="item in heroes">
+      <td>{{ item.name }}</td>
+     <td>{{ item.surname }}</td>
+      <td>{{ item.title }}</td>
+    </tr>
+  </table>  -->
+</div>
+<input type="text" [formControl]="searchword" />
+<button type="submit" (click)="Search()">Search</button>

@@ -1,0 +1,10 @@
+h1 {
+  display: block;
+
+  text-align: left;
+  margin: 0;
+}
+.logo {
+  display: flex;
+  justify-content: center;
+}
